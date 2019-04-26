@@ -201,3 +201,55 @@ header img{
 .middle-content .boxes :nth-child(10) {
     background-color: dodgerblue;
 }
+
+.about-img{
+    margin: 20px;
+}
+
+.container-about-page p {
+border-bottom: 1px dotted black;
+margin-bottom: 10px;
+margin-top: 10px;
+padding:10px;
+}
+.container-about-page h1{
+    padding:10px;
+}
+
+
+
+ .middle-container  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-container p{
+    padding-bottom: 20px;
+}
+
+.middle-container button{
+    padding:10px;
+    background-color: white;
+    width:200px;
+    border:1px solid black;
+    margin:10px;
+    border-radius: 7px;
+    
+}
+
+.bottom-section{
+    margin-top:50px;
+    margin-bottom: 30px;
+    padding:10px;
+    
+
+}
+.middle-section-left{
+    border-bottom: 1px dotted black;
+    margin:10px;
+}
+
+.middle-section-right{
+    border-bottom: 1px dotted black;
+    margin:10px;
+}
