@@ -214,6 +214,10 @@ padding:10px;
 }
 .container-about-page h1{
     padding:10px;
+    margin: 10px;
+}
+.container-about-page p{
+    margin:10px;
 }
 
 
@@ -225,12 +229,13 @@ padding:10px;
 
 .middle-container p{
     padding-bottom: 20px;
+    
 }
 
 .middle-container button{
-    padding:10px;
+    padding:5px;
     background-color: white;
-    width:200px;
+    width:120px;
     border:1px solid black;
     margin:10px;
     border-radius: 7px;
@@ -252,4 +257,12 @@ padding:10px;
 .middle-section-right{
     border-bottom: 1px dotted black;
     margin:10px;
+}
+
+.middle-section-left h1{
+    margin-top:10px;
+}
+
+.middle-section-right h1{
+    margin-top: 10px;
 }
