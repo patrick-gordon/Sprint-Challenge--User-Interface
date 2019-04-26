@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,126 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header{
+    padding:20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 0 25px 0;
+}
+
+header img{
+   display: flex;
+
+}
+
+.intro-pic{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.middle-content .boxes :first-child {
+    background-color: teal;
+}
+.middle-content .boxes :nth-child(2) {
+    background-color: gold;
+}
+.middle-content .boxes :nth-child(3) {
+    background-color: cadetblue;
+}
+.middle-content .boxes :nth-child(4) {
+    background-color: coral;
+}
+.middle-content .boxes :nth-child(5) {
+    background-color: crimson;
+}
+.middle-content .boxes :nth-child(6) {
+    background-color: forestgreen;
+}
+.middle-content .boxes :nth-child(7) {
+    background-color: darkorchid;
+}
+.middle-content .boxes :nth-child(8) {
+    background-color: hotpink;
+}
+.middle-content .boxes :nth-child(9) {
+    background-color: indigo;
+}
+.middle-content .boxes :nth-child(10) {
+    background-color: dodgerblue;
+}
+
+.about-img{
+    margin: 20px;
+}
+
+.container-about-page p {
+border-bottom: 1px dotted black;
+margin-bottom: 10px;
+margin-top: 10px;
+padding:10px;
+}
+.container-about-page h1{
+    padding:10px;
+    margin: 10px;
+}
+.container-about-page p{
+    margin:10px;
+}
+
+
+
+ .middle-container  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-container p{
+    padding-bottom: 20px;
+    
+}
+
+.middle-container button{
+    padding:5px;
+    background-color: white;
+    width:120px;
+    border:1px solid black;
+    margin:10px;
+    border-radius: 7px;
+    
+}
+
+.bottom-section{
+    margin-top:50px;
+    margin-bottom: 30px;
+    padding:10px;
+    
+
+}
+.middle-section-left{
+    border-bottom: 1px dotted black;
+    margin:10px;
+}
+
+.middle-section-right{
+    border-bottom: 1px dotted black;
+    margin:10px;
+}
+
+.middle-section-left h1{
+    margin-top:10px;
+}
+
+.middle-section-right h1{
+    margin-top: 10px;
 }
